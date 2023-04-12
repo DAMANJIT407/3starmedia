@@ -1,0 +1,188 @@
+body{
+	
+	margin: 0 0;
+}
+.container{
+	width:90%;
+	margin: auto;
+	
+	gap:50px;
+	padding:10px;
+}
+
+.active{
+	
+	
+	
+}
+
+nav{
+	margin: 0;
+	background-color:#444;
+	
+}
+.nav{
+	display: flex;
+	justify-content: center;
+}
+
+form{
+	line-height: 1;
+	margin-left:45px;
+}
+
+.nav-brand{
+	padding-right: 50px;
+	list-style: none;
+}
+
+.nav-item{
+	margin-left: 20px;
+	list-style: none;
+	padding:12px 6px;
+	text-align: center;
+	width:120px;
+}
+
+.nav-item:hover{
+	background-color:#ffaa44 !important;
+	color:#4444;
+	padding:12px 6px;
+
+}
+.nav-item:hover a{
+	color:#111;
+}
+
+.nav-item a{
+	text-decoration: none;
+	color:#ffaa44;
+}
+.search{
+	padding:7px;
+}
+
+/* Carousel style */
+
+.carousel{
+	background-image: url('../images/bg.jpg');
+	width:100%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	width:100%;
+	padding:6px;
+}
+
+.title{
+	font-size:48px;
+	text-transform: capitalize;
+	color:white;
+}
+
+.desc{
+	color:white;
+	font-family: San;
+}
+
+.btn{
+	padding:15px;
+	border:none;
+}
+
+.btn-connect{
+	background-color: #ffaa44;
+}
+.c-row{
+	display:flex;
+	margin-top: 15px;
+	gap:15px;
+	width:100%;
+
+}
+.c-col{
+	width: 50%;
+}
+.c-col h2 {
+	font-family:open-sans;
+}
+
+.c-col img{
+	width:100%;
+}
+.c-col-1{
+	width:33%;
+}
+.about-description{
+	width:100%;
+	padding: 20px;
+}
+.card{
+	width:100%;
+	
+	background-color: #ffcc44;
+}
+.card img{
+	width:inherit;
+}
+.btn-custom{
+	width:100%;
+	background-color: black;
+	color:white;
+}
+.card-description{
+	padding:15px;
+}
+
+.vision{
+	background-image: url('../images/af2.png');
+	width:100%;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.bt-20{
+	padding-bottom: 40px;
+}
+.p-20{
+	padding:20px;
+}
+.content{
+	color:white;
+}
+.content button{
+	padding:10px;
+	color:white;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+.group{
+	margin-bottom: 20px;
+}
+input[type=text] {
+	width: 100%;
+}
+textarea{
+	width: 100%;
+}
+.operation{
+	width:100%;
+}
+th{
+	background-color: #ffbb33;
+}
+table{
+	width:100%;
+	border:1px;
+}
+.footer{
+padding:15px;
+background-color: #000;
+color:white;
+text-align: center;
+}
